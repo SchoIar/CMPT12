@@ -1,13 +1,11 @@
 import discord
 from discord.ext import commands
-
+# if ur struggling add me on 'cord 
 client = commands.Bot(command_prefix=",", case_insensitive=True, self_bot=True)
 
 # to use it just type ",leave" anywhere and it'll leave the groups
-# if ur struggling dm me on cord alf#9999
 
 token = "put your token here"
-
 @client.event
 async def on_ready():
     print(f"Logged in as {client.user}")
